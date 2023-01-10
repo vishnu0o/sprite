@@ -1,0 +1,229 @@
+@import url("https://fast.fonts.net/cssapi/8a04dc22-85c7-4eaf-9d7a-6b23de89105b.css");
+
+*{
+    list-style: none;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+    height: 90px;
+    background-color:#009b4e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+.image1{
+    width: 178px;
+    height: 86px;
+    padding-left: 45px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.header-menu{
+    
+    margin-left: 86px;
+    padding-top: 37px;
+    padding-bottom: 20px;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    text-decoration: none;
+    font-family: "FuturaBT W05 ExtraBlack Italic";
+    
+
+}
+.header-menu1,.social-media{
+    display: flex;
+}
+.header-menu1 a:hover{
+    border-bottom: 6px black solid;
+    color: black;
+
+}
+.social-media svg{
+    height: 21px;
+    padding-right: 28px;
+}
+
+
+.social-media svg:last-of-type {
+    padding-left: 16px;
+}
+.social-media{
+    margin-right: 30px;
+}
+.body1{
+    width: 100%;
+    height: 392px;
+    display: flex;
+}
+.child1{
+    background-color: #00b13f;
+    background-size: cover;
+    height: 392px;
+   
+}
+.child2,.child1{
+    margin-top: 90px;
+    width: 50%;
+}
+.child2 img{
+    width: 100%;
+    height: 392px;
+}
+.new-bottle{
+    font-family:"FuturaBT W05 ExtraBlack Italic";
+    padding-left: 181px;
+    padding-top: 75px;
+    color: white;
+    font-size: 41px;
+    line-height: 55px;
+}
+.learn-more{
+    margin-left: 181px;
+    margin-top: 25px;
+    height: 49px;
+    width: 161px;
+    border: none;
+    color:#00b13f;
+    font-family: "FuturaBT W05 ExtraBlack Italic";
+    font-size: 16px;
+}
+.learn-more:hover{
+     color: white;
+     background-color: black;
+}
+.body2{
+    width: 52%;
+    margin: auto;
+    margin-top: 98px;
+}
+.new-drip{
+    font-size: 25px;
+    font-family: "FuturaBT W05 ExtraBlack Italic";
+    padding-top: 44px;
+    font-style: italic;
+}
+.body2-child1{
+    
+    padding-top: 10px;
+    padding-bottom: 55px;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.42rem;
+   
+}
+.body2 iframe{
+    width: 751px;
+    height: 423px;
+    
+}
+.body3{
+    display: flex;
+}
+.body3-child1{
+    width: 25%;
+    height: 492px;
+    background-color: #f7f7f8;
+}
+.body3-child2 img{
+    width: 792px;
+    height: 492px;
+}
+.footer{
+    width: 1446px;
+    height: 554px;
+    background-color: #009b4e;
+}
+.footer1{
+    width: 1205px;
+    height: 499px;
+    margin-left: 121px;
+    display: flex;
+    
+    margin-right: 121px;
+    position: relative;
+    top: 55px;
+   
+}
+.sprite{
+    width: 251px;
+    height: 244px;
+    
+    margin-left: 50px;
+}
+.sprite img{
+    padding: 48px;
+    
+}
+
+
+.footer2 h3{
+  color: #f7f7f8;
+  padding-top: 32px;
+  padding-left: 3px;
+  font-family: "FuturaBT W05 ExtraBlack Italic";
+  font-size: 16px;
+  line-height: 24px;
+
+}
+.connect-with-us{
+    margin-left: 70px;
+}
+.connect-with-us svg{
+    width: 22px;
+    height: 62px;
+    margin-left: 18px;
+    float: left;
+    margin-top: 35px;
+    margin-left: 25px;
+}
+.connect-with-us svg:hover{
+    
+   transform: scale(2);
+   
+   
+    
+}
+.products{
+    width: 331px;
+    height: 291px;
+    margin-left: 221px;
+    margin-top: -49px;
+   
+}
+.products li{
+    font-family: "FuturaBT W05 ExtraBlack Italic";
+    color: white;
+    font-size: 14px;
+    margin-left: 26px;
+    line-height: 31px;
+}
+.product-head{
+    padding-bottom: 43px;
+}
+.footer-final{
+    margin-left: 326px;
+    margin-right: 133px;
+    margin-top: -46px;
+}
+.footer-title,.footer-title1{
+    font-size: 14px;
+    color: white;
+    font-family:"FuturaBT W05 ExtraBlack Italic";
+}
+.footer-title{
+    padding-left: 171px;
+    line-height: 50px;
+}
+
+.footer-title1{
+    padding-left: 10px;
+}
